@@ -4,6 +4,31 @@ body{
 
 
 /*header*/
+header{
+	height: 100px;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 25px 15px;
+}
+.header-nav-ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.header-nav-ul-li{
+	margin-right: 35px;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-family: 'Playfair Display';
+	font-weight: 200;
+}
+.logo{
+	width: 200px;
+	height: 60px;
+}
 .icon-youtube{
 	width: 25px;
 	height: 30px;
