@@ -167,7 +167,7 @@ header{
 	margin-top: 50px;
 }
 .fourth-section-div-boxes h2{
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	font-family: Arial;
 	font-size: 18px;
 }
@@ -202,3 +202,14 @@ header{
 /*fourth section*/
 
 
+/*footer*/
+footer{
+	height: 60px;
+	background-color: yellow;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	margin: 0 40px;
+}
+/*footer*/
