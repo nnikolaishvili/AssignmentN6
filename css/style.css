@@ -107,7 +107,7 @@ header{
 
 /*third section*/
 .third-section{
-	height: 430px;
+	height: 440px;
 	background-color: #BDCCD4;
 	display: flex;
 	justify-content: center;
@@ -227,3 +227,31 @@ footer div p{
 	}
 }
 /*media queries*/
+
+
+
+
+
+
+/*page2*/
+/*8 div section*/
+
+.first-section-page2{
+	background-color: grey;
+	padding: 90px;
+	
+}
+/*.eight-div-boxes{
+	width: 1300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.childs{
+	margin-right: 30px;
+}
+*/
+
+
+/*8 div section*/
