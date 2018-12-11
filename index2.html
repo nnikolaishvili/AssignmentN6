@@ -4,12 +4,7 @@
 	<title>Assignment6</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/helvetica-bold">
-	<link rel="stylesheet" type="text/css" href="css/helvetica-bdcn">
-	<link rel="stylesheet" type="text/css" href="css/youtube.css">
-	<link rel="stylesheet" type="text/css" href="css/playfair.css">
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -18,7 +13,7 @@
 	<header>
 	  <div class="container">
 		<img class="logo" src="img/logo.png">
-		  <nav class="header-nav">
+		  <nav class="header-nav dissapear">
 			<ul class="header-nav-ul">
 				<li class="header-nav-ul-li">
 					<a href="index.html">Home</a>
@@ -57,6 +52,11 @@
 				<li class="header-nav-ul-li">
 					<a href="#">
 						<i class="fas fa-search color-icon"></i>
+					</a>
+				</li>
+				<li class="header-nav-ul-li">
+					<a class="icon-open" href="#">
+						<i class="fas fa-bars"></i>
 					</a>
 				</li>
 			</ul>
@@ -99,18 +99,19 @@
 			</div>
 		</div>
 		<div class="load-more-parent">
-			<div class="load-more">Load More</div>
+			<div id="load" class="load-more"></div>
 		</div>
 	</section>
 	<section class="second-section">
 		<div class="div-boxes">
-			<h2>Videos | view all videos</h2>
+			<h2>VIDEOS | </h2>
+			<h2 class="color">view all videos</h2>
 		  <div class="boxes">
 			<div class="box">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/rp7Y0XumBN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/rp7Y0XumBN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 			<div class="box">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/yXQViqx6GMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/yXQViqx6GMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		 </div>
 
@@ -124,7 +125,8 @@
 	</section>
 	<section class="fourth-section">
 		<div class="fourth-section-div-boxes">
-			<h2>FEATURED | view all featured media</h2>
+			<h2>FEATURED | </h2>
+			<h2 class="color">view all featured media</h2>
 		  <div class="fourth-section-boxes">
 			<div class="fourth-section-box red-border">
 				<div>
@@ -139,7 +141,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="fourth-section-box">
+			<div class="fourth-section-box red-border">
 				<div>
 					<h2 class="fourth-h2">App Development</h2>
 					<div class="fourth-box-div">
@@ -161,5 +163,11 @@
 			<p>created by: ME</p>
 		</div>
 	</footer>
+	<!-- <script>
+		function myFunction() {
+  			var x = document.getElementById("load");
+ 			    x.style.color = "red";
+		}
+	</script> -->
 </body>
 </html>
