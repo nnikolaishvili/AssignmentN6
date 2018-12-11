@@ -237,21 +237,59 @@ footer div p{
 /*8 div section*/
 
 .first-section-page2{
-	background-color: grey;
+	background-color: rgb(189,203,212);
 	padding: 90px;
-	
+
 }
-/*.eight-div-boxes{
-	width: 1300px;
+.eight-div-boxes{
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 .childs{
-	margin-right: 30px;
+	width: 270px;
+	height: 270px;
+	margin-top: 25px;
 }
-*/
+.bg{
+	height: 210px;
+	width: 100%;
+}
+.bg1{
+	background-image: url(../img/typography.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bg2{
+	background-image: url(../img/computerlittle.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bg3{
+	background-image: url(../img/man.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bg4{
+	background-image: url(../img/design.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.childs p{
+	background: rgb(230,230,230);
+	color: rgb(128,128,128);
+	padding: 20px 5px;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	font-size: 23px;
+	text-transform: uppercase;
+    font-family: 'Chivo', sans-serif;
+}
 
 
 /*8 div section*/
