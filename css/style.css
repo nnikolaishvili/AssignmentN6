@@ -60,7 +60,7 @@ header{
 	height: 416px;
 	background-image: url('../img/computer.jpg');
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	position: relative;
 }
 .first-section-picture-div p{
@@ -205,11 +205,25 @@ header{
 /*footer*/
 footer{
 	height: 60px;
-	background-color: yellow;
+	padding: 10px;
+	margin: 0 30px;
+}
+footer div{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15px;
-	margin: 0 40px;
+	padding-top: 5px;
+}
+footer div p{
+	color: rgb(127,127,127);
 }
 /*footer*/
+
+
+/*media queries*/
+@media only screen and (max-width: 1400px){
+	body{
+		width: 100%;
+	}
+}
+/*media queries*/
